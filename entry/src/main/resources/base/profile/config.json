@@ -1,0 +1,16 @@
+{
+    "app": {
+        "bundleName": "com.example.infinitepaint",
+        "vendor": "example",
+        "version": {
+            "code": 1,
+            "name": "1.0"
+        }
+    },
+    "module": {
+        "package": "com.example.infinitepaint",
+        "name": "entry",
+        "mainAbility": "com.example.infinitepaint.MainAbility",
+        "deviceType": [ "tablet", "phone" ]
+    }
+}
