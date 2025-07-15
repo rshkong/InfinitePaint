@@ -17,21 +17,3 @@ hdc shell build entry
 Replace `hdc` commands with the appropriate build commands from your
 development environment.
 
-### Project Structure
-
-The HarmonyOS source code for this sample resides in `entry/src/main/ets`.
-Within this folder you will find:
-
-- `MainAbility/MainAbility.ets` – the app entry point
-- `pages/` – UI components such as `Index.ets`
-- `controller/`, `model/`, and `view/` – MVC implementation files
-
-### Uploading Your Changes
-
-To share your local modifications, commit them and push to your Git remote:
-
-```bash
-git add .
-git commit -m "Describe your changes"
-git push origin <branch-name>
-```
