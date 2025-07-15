@@ -16,3 +16,4 @@ hdc shell build entry
 
 Replace `hdc` commands with the appropriate build commands from your
 development environment.
+
