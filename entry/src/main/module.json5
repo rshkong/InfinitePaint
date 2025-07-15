@@ -1,9 +1,9 @@
 {
   "module": {
-    "name": "InfinitePaint",
+    "name": "entry",
     "type": "entry",
     "description": "$string:module_desc",
-    "mainElement": "InfinitePaintAbility",
+    "mainElement": "EntryAbility",
     "deviceTypes": [
       "phone",
       "tablet",
@@ -15,11 +15,11 @@
     "pages": "$profile:main_pages",
     "abilities": [
       {
-        "name": "InfinitePaintAbility",
-        "srcEntry": "./ets/infinitepaintability/InfinitePaintAbility.ets",
-        "description": "$string:InfinitePaintAbility_desc",
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
         "icon": "$media:layered_image",
-        "label": "$string:InfinitePaintAbility_label",
+        "label": "$string:EntryAbility_label",
         "startWindowIcon": "$media:startIcon",
         "startWindowBackground": "$color:start_window_background",
         "exported": true,
@@ -37,8 +37,8 @@
     ],
     "extensionAbilities": [
       {
-        "name": "InfinitePaintBackupAbility",
-        "srcEntry": "./ets/infinitepaintbackupability/InfinitePaintBackupAbility.ets",
+        "name": "EntryBackupAbility",
+        "srcEntry": "./ets/entrybackupability/EntryBackupAbility.ets",
         "type": "backup",
         "exported": false,
         "metadata": [

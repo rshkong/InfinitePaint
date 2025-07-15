@@ -27,8 +27,8 @@
   },
   "modules": [
     {
-      "name": "InfinitePaint",
-      "srcPath": "./InfinitePaint",
+      "name": "entry",
+      "srcPath": "./entry",
       "targets": [
         {
           "name": "default",

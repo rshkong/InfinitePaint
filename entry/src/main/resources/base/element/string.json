@@ -5,11 +5,11 @@
       "value": "module description"
     },
     {
-      "name": "InfinitePaintAbility_desc",
+      "name": "EntryAbility_desc",
       "value": "description"
     },
     {
-      "name": "InfinitePaintAbility_label",
+      "name": "EntryAbility_label",
       "value": "label"
     }
   ]
