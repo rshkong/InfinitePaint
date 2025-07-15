@@ -1,0 +1,11 @@
+{
+  "name": "@ohos/infinitepaint",
+  "version": "1.0.0",
+  "description": "Infinite canvas note app built with ArkTS",
+  "module": "entry",
+  "scripts": {
+    "build": "ace build --module entry"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

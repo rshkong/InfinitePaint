@@ -17,6 +17,15 @@ hdc shell build entry
 Replace `hdc` commands with the appropriate build commands from your
 development environment.
 
+### Installing Dependencies
+
+HarmonyOS projects expect an `oh-package.json5` file at the project root.
+Run the following command to install packages before building:
+
+```
+ohpm install --all
+```
+
 ### Project Structure
 
 The HarmonyOS source code for this sample resides in `entry/src/main/ets`.
